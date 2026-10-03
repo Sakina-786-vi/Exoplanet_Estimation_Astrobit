@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Astro datasets and generated artifacts
+Astro/*_pack/
+Astro/data/processed/
+Astro/data/diagnostics/
+Astro/data/plots/
+Astro/outputs_*/
+Astro/reports/*.csv
+Astro/reports/*.json
+Astro/reports/private_inference_readiness.md
