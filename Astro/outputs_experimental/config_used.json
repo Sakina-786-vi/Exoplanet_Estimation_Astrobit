@@ -1,0 +1,38 @@
+{
+  "period_min_days": 3.0,
+  "period_max_days": 400.0,
+  "coarse_trials": 512,
+  "durations_hours": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    12,
+    18,
+    24,
+    36
+  ],
+  "max_candidates": 10,
+  "min_transit_points": 3,
+  "max_edge_fraction": 0.5,
+  "max_gap_fraction": 0.5,
+  "positive_threshold": 0.55,
+  "random_seed": 20260914,
+  "period_tolerance_fraction": 0.02,
+  "use_ml": true,
+  "calibration_folds": 5,
+  "frozen": {
+    "status": "TRAIN_SELECTED_DEV_FROZEN",
+    "selected_score_source": "statistical",
+    "selected_threshold": 0.19,
+    "selected_model": "statistical_baseline",
+    "feature_set": "candidate_features_with_event_consistency",
+    "expanded_model_selected": false,
+    "xgboost_available": false,
+    "private_inference_requires_retraining": false
+  },
+  "selected_score_source": "statistical",
+  "selected_threshold": 0.19,
+  "train_oof_f1": 0.40866873065015485
+}

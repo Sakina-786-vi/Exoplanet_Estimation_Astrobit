@@ -1,0 +1,16 @@
+{
+  "star_count": 87,
+  "positive_predictions": 79,
+  "negative_predictions": 8,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "duplicate_ids": 0,
+  "characterization_complete_for_positive": true,
+  "negative_characterization_blank": true,
+  "confidence_min": 0.11153539,
+  "confidence_max": 0.44444444,
+  "period_min_positive": 12.98241112,
+  "period_max_positive": 400.0,
+  "depth_min_positive": 955.28101,
+  "duration_min_positive": 1.0
+}

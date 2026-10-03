@@ -1,0 +1,10 @@
+{
+  "method": "robust_rolling_median",
+  "window_days": 2.0,
+  "selection_score": null,
+  "dataset_separation": {
+    "TRAIN": "development / in-sample",
+    "DEV": "independent validation",
+    "PRIVATE": "untouched"
+  }
+}

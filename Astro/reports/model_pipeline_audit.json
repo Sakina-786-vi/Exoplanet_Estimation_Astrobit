@@ -1,0 +1,13 @@
+{
+  "classifier_training_input": "rank-1 candidate feature vectors from TRAIN stars",
+  "classifier_training_labels": "train_pack/train_labels.csv label joined by numeric KIC ID",
+  "classifier_oof_score": "dependency-free logistic model predictions from 5 star-level folds",
+  "statistical_baseline_score": "sigmoid(0.8 * (candidate_sde - 5))",
+  "threshold_optimization_space": "TRAIN OOF statistical baseline or ML score, whichever has higher OOF F1",
+  "selected_decision_space": "statistical baseline",
+  "reported_confidence_space": "OOF isotonic calibration of selected decision score",
+  "dev_usage": "frozen TRAIN model/calibration/threshold only",
+  "xgboost": "not installed",
+  "selection_reason": "statistical baseline OOF F1 0.410 and AP 0.266 exceeded dependency-free ML OOF F1 0.399 and AP 0.217",
+  "conclusion": "ML is integrated and evaluated, but does not improve the statistical baseline and is not selected"
+}

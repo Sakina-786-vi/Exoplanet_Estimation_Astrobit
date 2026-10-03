@@ -1,0 +1,24 @@
+{
+  "TRAIN": {
+    "stars": 269,
+    "positive_stars": 67,
+    "valid_candidate_rate": 1.0,
+    "top1_recovery": 0.0,
+    "top3_recovery": 0.0,
+    "top5_recovery": 0.0,
+    "top10_recovery": 0.0,
+    "median_period_error_percent": null,
+    "candidate_count_mean": 10.0
+  },
+  "DEV": {
+    "stars": 89,
+    "positive_stars": 21,
+    "valid_candidate_rate": 1.0,
+    "top1_recovery": 0.0,
+    "top3_recovery": 0.0,
+    "top5_recovery": 0.0,
+    "top10_recovery": 0.0,
+    "median_period_error_percent": null,
+    "candidate_count_mean": 10.0
+  }
+}

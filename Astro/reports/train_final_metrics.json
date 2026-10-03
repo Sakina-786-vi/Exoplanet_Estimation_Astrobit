@@ -1,0 +1,15 @@
+{
+  "split": "TRAIN",
+  "stars": 269,
+  "tp": 66,
+  "fp": 189,
+  "fn": 1,
+  "tn": 13,
+  "precision": 0.2588235294,
+  "recall": 0.9850746269,
+  "f1": 0.4099378882,
+  "positive_predictions": 255,
+  "selected_score_source": "statistical",
+  "selected_threshold": 0.19,
+  "expanded_model_selected": false
+}
